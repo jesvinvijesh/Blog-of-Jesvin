@@ -23,6 +23,7 @@ SECRET_KEY = '&^9ewe8k)a3815t)e#nlbq6%o%(nwqg2owx4t3t49u#^e%1bwi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+DEBUG_PROPAGATE_EXCEPTIONS = True
 
 ALLOWED_HOSTS = ['blogofjesvin.herokuapp.com', '127.0.0.1']
 
