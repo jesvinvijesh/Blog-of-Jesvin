@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"blo",
+				"blog_post"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"Up",
+				"UpdateBlogPostForm"
+			],
+			[
+				"co",
+				"context"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"no",
+				"None"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"cl",
+				"cleaned_data"
+			],
+			[
+				"bol",
+				"blog_post"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"for",
+				"forms"
+			],
+			[
+				"lo",
+				"logout"
+			],
+			[
+				"ho",
+				"home_screen_view"
+			],
+			[
+				"F",
+				"False"
+			],
+			[
+				"cre",
+				"create_user"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"d",
+				"def\tFunction"
+			],
+			[
+				"ma",
+				"margin-left\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"wh",
+				"DjangoWhiteNoise"
+			],
+			[
+				"c",
+				"contrib"
+			],
+			[
+				"P",
+				"PhoneField"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"a",
+				"auto\tmargin"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"bo",
+				"border-radius\tproperty"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"it",
+				"italic\tfont-style"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"b",
+				"br\tTag"
+			],
+			[
+				"i",
+				"input\tTag"
+			],
+			[
+				"Fo",
+				"FORM\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 164.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/jesvin's/Django_tutorial/src/blog/forms.py",
+		"/D/jesvin's/Django_tutorial/src/blog/templates/blog/snippets/blog_post_snippet.html",
+		"/D/jesvin's/Django_tutorial/src/blog/templates/blog/detail_blog.html",
+		"/D/jesvin's/Django_tutorial/src/personal/templates/personal/home.html",
+		"/D/jesvin's/Django_tutorial/src/blog/templates/blog/snippets/blog_post_pagination.html",
+		"/D/jesvin's/Django_tutorial/src/blog/views.py",
+		"/D/jesvin's/Django_tutorial/src/personal/views.py",
+		"/D/jesvin's/Django_tutorial/src/templates/snippets/header.html",
+		"/D/jesvin's/Django_tutorial/src/accounts/models.py",
+		"/D/jesvin's/Django_tutorial/src/blog/urls.py",
+		"/D/jesvin's/Django_tutorial/src/mysite/settings.py",
+		"/D/jesvin's/Django_tutorial/src/blog/templates/blog/edit_blog.html",
+		"/D/jesvin's/Django_tutorial/src/mysite/urls.py",
+		"/D/jesvin's/Django_tutorial/src/blog/templates/blog/create_blog.html",
+		"/D/jesvin's/Django_tutorial/src/accounts/templates/accounts/account.html",
+		"/D/jesvin's/Django_tutorial/src/accounts/views.py",
+		"/D/jesvin's/Django_tutorial/src/accounts/templates/personal/home.html",
+		"/D/jesvin's/Django_tutorial/src/accounts/templates/accounts/must_authenticate.html",
+		"/D/jesvin's/Django_tutorial/src/templates/base.html",
+		"/D/jesvin's/Django_tutorial/src/templates/snippets/base_css.html",
+		"/D/jesvin's/Django_tutorial/src/templates/registration/password-reset.html",
+		"/D/jesvin's/Django_tutorial/src/db.sqlite3",
+		"/D/jesvin's/Django_tutorial/src/templates/registration/password_reset_form.html",
+		"/D/jesvin's/Django_tutorial/src/templates/registration/password_reset_done.html",
+		"/D/jesvin's/Django_tutorial/src/templates/registration/password_reset_complete.html",
+		"/D/jesvin's/Django_tutorial/src/templates/registration/password_change_complete.html",
+		"/D/jesvin's/Django_tutorial/src/templates/registration/password_change.html",
+		"/D/jesvin's/Django_tutorial/src/accounts/templates/accounts/register.html",
+		"/D/jesvin's/Django_tutorial/src/accounts/templates/accounts/login.html",
+		"/D/jesvin's/Django_tutorial/src/templates/registration/reset_password.html",
+		"/D/jesvin's/Django_tutorial/src/mysite/wsgi.py",
+		"/D/jesvin's/Django_tutorial/src/blog/migrations/0001_initial.py",
+		"/D/jesvin's/Django_tutorial/src/templates/snippets/footer.html",
+		"/D/jesvin's/Django_tutorial/src/blog/admin.py",
+		"/D/jesvin's/Django_tutorial/src/blog/models.py",
+		"/D/jesvin's/Django_tutorial/src/templates/registration/password_reset_subject.txt",
+		"/D/jesvin's/Django_tutorial/src/templates/registration/password_reset_email.html",
+		"/D/jesvin's/Django_tutorial/src/templates/registration/password_change_done.html",
+		"/D/jesvin's/Django_tutorial/src/accounts/forms.py",
+		"/D/jesvin's/Django_tutorial/src/personal/admin.py",
+		"/D/jesvin's/Django_tutorial/src/accounts/admin.py",
+		"/D/jesvin's/Django_tutorial/src/personal/models.py",
+		"/D/jesvin's/Django_tutorial/src/personal/templates/personal/baseSnipet.html",
+		"/D/jesvin's/heroku/test/tester/settings.py",
+		"/D/jesvin's/heroku/test/tester/urls.py",
+		"/D/jesvin's/heroku/test/testing/views.py",
+		"/D/jesvin's/heroku/test/templates/signup.html",
+		"/D/jesvin's/heroku/test/env/Lib/site-packages/vali/decorator.py",
+		"/C/Users/sta/Desktop/test/venv/Lib/site-packages/jet/dashboard/models.py",
+		"/C/Users/sta/Desktop/test/venv/Lib/site-packages/jet/models.py",
+		"/C/Users/sta/Desktop/test/tester/urls.py",
+		"/C/Users/sta/Desktop/test/venv/Lib/site-packages/distutils-precedence.pth",
+		"/C/Users/sta/Desktop/test/tester/settings.py",
+		"/D/MSJ Researchers World/Student_Management/static/msj.jpg",
+		"/D/MSJ Researchers World/Student_Management/student_student_image_url/msj_logo.png",
+		"/D/jesvin's/heroku/Student_Management/student_management/urls.py",
+		"/D/jesvin's/heroku/MSJ_Royal_Cashews/venv/Lib/site-packages/django/contrib/admin/templates/admin/index.html",
+		"/D/jesvin's/heroku/MSJ_Royal_Cashews/venv/Lib/site-packages/django/contrib/admin/templates/admin/base.html",
+		"/D/jesvin's/heroku/MSJ_Royal_Cashews/MSJ_Royal_Cashews/settings.py",
+		"/D/jesvin's/heroku/MSJ_Royal_Cashews/.idea/.gitignore",
+		"/D/jesvin's/heroku/MSJ_Royal_Cashews/.gitignore",
+		"/D/jesvin's/heroku/Student_Management/student_management/settings.py",
+		"/D/jesvin's/DjReact/django react/frontend/src/components/form.js",
+		"/C/Users/sta/Desktop/a.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "views.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

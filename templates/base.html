@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+	<title>Jesvin's Django Page</title>
+	
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	{% include 'snippets/header.html' %}
+	<style type="text/css">
+		.main {
+			min-height: 100vh;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	{% include 'snippets/base_css.html' %}
+	<div class="main">
+		<!-- Body -->
+	{% block content %}	
+	{% endblock content %}
+	<!-- End Body -->
+	</div>
+	
+</body>
+
+<footer>
+	{% include 'snippets/footer.html' %}
+</footer>
+</html>
