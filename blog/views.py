@@ -68,7 +68,7 @@ def delete(request, slug):
     try:
         query = BlogPost.objects.get(slug=slug)
         query.delete()
-        return redirect('account')
+        return redirect('home')
     except:
         return HttpResponseNotFound()
 
