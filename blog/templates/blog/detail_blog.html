@@ -28,6 +28,7 @@
 
 			  {% if blog_post.author == request.user %}
 			  	<a href="{% url 'blog:edit' blog_post.slug %}" class="btn btn-primary">Update</a>
+				<a href="{% url 'blog:delete' blog_post.slug %}" class="btn btn-primary danger">Delete</a>
 			  {% endif %}
 			</div>
 			<div class="card-footer text-muted">
