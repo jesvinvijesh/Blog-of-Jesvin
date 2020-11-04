@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import cloudinary.api
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -32,6 +33,7 @@ ALLOWED_HOSTS = ['blogofjesvin.herokuapp.com', '127.0.0.1']
 INSTALLED_APPS = [
     'blog',
     'accounts',
+    'cloudinary',
     'personal',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -138,3 +140,8 @@ EMAIL_HOST_PASSWORD = 'znplucnciqdenxcv'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = "msjjesvin@gmail.com"
+cloudinary.config(
+  cloud_name = "jesvin",
+  api_key = "828379899143834",
+  api_secret = "16xslFRZuFfnGur_ejeVIVgOYFM"
+)

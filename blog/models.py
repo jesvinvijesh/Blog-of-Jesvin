@@ -4,6 +4,7 @@ from django.utils.text import slugify
 from django.conf import settings
 from django.db.models.signals import post_delete
 from django.dispatch import receiver
+from cloudinary.models import CloudinaryField
 
 
 def upload_location(instance, filename):
@@ -15,7 +16,7 @@ def upload_location(instance, filename):
 class BlogPost(models.Model):
     title = models.CharField(max_length=50, null=False, blank=False)
     body = models.TextField(max_length=100000, null=False, blank=False)
-    image = models.ImageField(upload_to=upload_location, null=True, blank=True)
+    image = CloudinaryField('image')
     date_published = models.DateTimeField(auto_now_add=True, verbose_name="date published")
     date_updated = models.DateTimeField(auto_now=True, verbose_name="date updated")
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
