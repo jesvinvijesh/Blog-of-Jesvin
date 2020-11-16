@@ -1,3 +1,4 @@
+.idea
 bin/
 include/
 pip-selfcheck.json
@@ -13,7 +14,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-env/
+venv/
 build/
 develop-eggs/
 dist/
@@ -84,7 +85,7 @@ celerybeat-schedule
 .env
 
 # virtualenv
-venv/
+v/
 ENV/
 
 # Spyder project settings

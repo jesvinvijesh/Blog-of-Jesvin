@@ -23,8 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '&^9ewe8k)a3815t)e#nlbq6%o%(nwqg2owx4t3t49u#^e%1bwi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-DEBUG_PROPAGATE_EXCEPTIONS = True
+DEBUG = False
+# DEBUG_PROPAGATE_EXCEPTIONS = True
 
 ALLOWED_HOSTS = ['blogofjesvin.herokuapp.com', '127.0.0.1']
 
@@ -85,6 +85,7 @@ DATABASES = {
     }
 }
 import dj_database_url
+
 db_from_env = dj_database_url.config()
 DATABASES['default'].update(db_from_env)
 
@@ -130,7 +131,6 @@ STATICFILES_DIRS = [
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 MEDIA_URL = '/media/'
-
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -141,7 +141,7 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = "msjjesvin@gmail.com"
 cloudinary.config(
-  cloud_name = "jesvin",
-  api_key = "828379899143834",
-  api_secret = "16xslFRZuFfnGur_ejeVIVgOYFM"
+    cloud_name="jesvin",
+    api_key="828379899143834",
+    api_secret="16xslFRZuFfnGur_ejeVIVgOYFM"
 )
