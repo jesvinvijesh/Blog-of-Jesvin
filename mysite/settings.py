@@ -135,13 +135,13 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'msjjesvin@gmail.com'
-EMAIL_HOST_PASSWORD = 'znplucnciqdenxcv'
+EMAIL_HOST_USER = '<your mail>@gmail.com'
+EMAIL_HOST_PASSWORD = '<Your app password>'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = "msjjesvin@gmail.com"
+DEFAULT_FROM_EMAIL = "<your mail>@gmail.com"
 cloudinary.config(
-    cloud_name="jesvin",
-    api_key="828379899143834",
-    api_secret="16xslFRZuFfnGur_ejeVIVgOYFM"
+    cloud_name="<cloudinary cloud name>",
+    api_key="<cloudinary api key>",
+    api_secret="<cloudinary api secret>"
 )
